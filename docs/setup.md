@@ -3,7 +3,7 @@
 Add the plugin to your frontend app:
 
 ```bash
-cd packages/app && yarn add @k-phoen/backstage-plugin-grafana
+cd packages/app && yarn add @jobosk/backstage-plugin-grafana
 ```
 
 Configure the plugin in `app-config.yaml`. The proxy endpoint described below will allow the frontend
@@ -36,7 +36,7 @@ Expose the plugin to Backstage:
 
 // other plugins...
 
-export { grafanaPlugin } from '@k-phoen/backstage-plugin-grafana';
+export { grafanaPlugin } from '@jobosk/backstage-plugin-grafana';
 ```
 
 That's it! You can now update your entities pages to [display alerts](alerts-on-component-page.md) or [dashboards](dashboards-on-component-page.md) related to them.

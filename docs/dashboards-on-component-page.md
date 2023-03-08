@@ -7,7 +7,7 @@ Adding the `EntityGrafanaDashboardsCard` component to an entity's page will disp
 
 import {
   EntityGrafanaDashboardsCard,
-} from '@k-phoen/backstage-plugin-grafana';
+} from '@jobosk/backstage-plugin-grafana';
 
 // ...
 

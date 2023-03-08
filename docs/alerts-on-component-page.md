@@ -7,7 +7,7 @@ Adding the `EntityGrafanaAlertsCard` component to an entity's page will display 
 
 import {
   EntityGrafanaAlertsCard,
-} from '@k-phoen/backstage-plugin-grafana';
+} from '@jobosk/backstage-plugin-grafana';
 
 // ...
 
